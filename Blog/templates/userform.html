@@ -1,0 +1,37 @@
+{%load static%}
+{%include "header.html" %}
+
+    <div class="contact-content font1 max-width-1 m-auto">
+        <div class="max-width-1 m-auto mx-1">
+            <h2> User Form</h2>
+            
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <form method="post">
+              {% csrf_token %}
+              <div>
+                <label for="">value1</label>
+                <input type="text" name="num1" value="{{n1}}" class="form-control"/>
+              </div>
+              <div>
+                <label for="">value2</label>
+                <input type="text" name="num2" value="{{n2}}" class="form-control"/>
+              </div>
+              
+              <div class="pt-6">
+                <button type="Submit">Save</button>
+              </div>
+              output
+              <input type="text" value={{output}}/>
+            </form>
+          </div>
+        </div>
+
+    </div>
+{%include "footer.html" %}
+ 
+
+   
+
+    

@@ -1,0 +1,24 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/utils.css' %}">
+    <link rel="stylesheet" href="{%static 'css/style.css' %}">
+    <link rel="stylesheet" href="{%static 'css/blogpost.css' %}">
+    <link rel="stylesheet" href="{%static 'css/mobile.css' %}">
+    <title>iBlog - Heaven for bloggers</title>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="{%static 'img/logo.png' %}" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="blogpost">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>

@@ -1,0 +1,120 @@
+{%load static%}
+{%include "header1.html"%}
+        <div class="nav-right">
+            <form action="/search" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article Search">
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+
+    </nav>
+ 
+
+    <div class="max-width-1 m-auto"><hr></div>
+    <div class="home-articles max-width-1 m-auto font2">
+        
+        <h2>Search Results for Django (0.03 seconds)</h2>
+        <div class="year-box adjust-year">
+            <div>
+                <h3>Year </h3>
+            </div>
+            <div>
+                <input type="radio" name="year" id=""> 2023
+            </div>
+            <div>
+                <input type="radio" name="year" id=""> 2024
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="{%static 'img/11.svg' %}" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="{% static '/blogpost.html' %}"><h3>Lorem 16.</h3></a>
+                
+                <span>Author</span>
+                <span>07 January</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="{%static 'img/11.svg' %}" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="{% static '/blogpost.html' %}"><h3>Lorem 17.</h3></a>
+                
+                <span>Author </span>
+                <span>08 January </span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="{% static 'img/11.svg' %}" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html"><h3>Lorem 18.</h3></a>
+                
+                <span>Author</span>
+                <span>09 January </span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="{%static 'img/home.svg' %}" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html"><h3>Lorem 19.</h3></a>
+                
+                <span>Author</span>
+                <span>05 January </span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="{%static 'img/11.svg' %}" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html"><h3>Lorem 21.</h3></a>
+                
+                <span>Author</span>
+                <span>07 January </span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="{%static 'img/11.svg' %}" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html"><h3>Lorem 11.</h3></a>
+                
+                <span>Author</span>
+                <span>06 January</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="{% static 'img/11.svg' %}" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html"><h3>Lorem 5.</h3></a>
+                
+                <span>Author </span>
+                <span>07 January </span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="{% static 'img/11.svg' %}" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html"><h3>Lorem ipsum .</h3></a>
+                
+                <span>Author</span>
+                <span>03 January </span>
+            </div>
+        </div>
+         
+    </div>
+
+{%include "footer.html" %}
